@@ -1,0 +1,173 @@
+/* 
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* UNIVERSAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    /* outline: 2px solid white; */
+    box-sizing: border-box;
+}
+
+/* BODY STYLES */
+body {
+    background-color: #2C1A3D;
+    font-family: "Rubik", sans-serif;
+}
+
+/* NAVBAR STYLE */
+.navbar {
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+}
+
+/* NAV MENU STYLE */
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+/* NAV MENU STYLE HERE */
+.nav-menu a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #A993BD;
+    transform: scale(1.1);
+}
+
+/* COUNTRY MENU */
+.country {
+    width: 45;
+    height: 45;
+    border-width: 2px;
+    opacity: 1;
+    border: 2px solid rgba(44, 26, 61, 1);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.img{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgba(219, 182, 255, 0.35);
+}
+
+/* NAV BUTTONS STYLE */
+.nav-btn {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    width: hug(250px);
+    height: hug(45px);
+}
+
+/* BTN STYLING */
+.btn {
+    padding: 8px 29px 8px 29px;
+    border: 2px;
+    border-radius: 25px;
+    width: fixed(120px);
+    height: fixed(45px);
+}
+
+.nav-btn .btn:first-child {
+    border: 2px solid #A993BD;
+    color: #fff;
+}
+
+.btn:last-child {
+    background: linear-gradient(180deg, rgba(219, 182, 255, 0.35) 0%, rgba(219, 182, 255, 0.231373) 100%);
+    color: #fff;
+}
+
+/* HERE SECTION STYLING */
+.hero-section {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 65vh;
+    background-size: contain;
+    background: url(../images/header-banner.png);
+}
+
+/* HERO CONTENT */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1366;
+    height: 392.2507019042969;
+    padding: 10px;
+    opacity: 1;
+}
+
+.hero-context{
+    padding: 50px;
+}
+
+.hero-content h2 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    /* padding: 10px; */
+    font-size: 32px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.hero-content h1 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    padding: 10px;
+    font-size: 112px;
+    color: #fff;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.hero-content .welcome-package-btn {
+    background: linear-gradient(360deg, #FE8607 0%, #FEB83F 100%);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 100px;
+}
+
+.sponsor {
+    width: 414;
+    height: 22.476123809814453;
+    gap: 8.99px;
+    opacity: 1;
+    padding: 5px;
+}
